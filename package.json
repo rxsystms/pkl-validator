@@ -3,7 +3,7 @@
   "displayName": "PKL Validator",
   "description": "Validate PKL files in VS Code and show diagnostics in the Problems panel.",
   "publisher": "rxsystms",
-  "version": "0.1.5",
+  "version": "0.1.2",
   "icon": "resources/logo.png",
   "repository": "https://github.com/rxsystms/pkl-validator",
   "engines": {

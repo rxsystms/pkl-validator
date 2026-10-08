@@ -23,7 +23,7 @@ If the `pkl` CLI is not on your PATH, set the `PKL_BIN` environment variable to 
 
 ## Important runtime requirement
 
-A `pkl` binary must be available on PATH. If not, set this environment variable before launching VS Code:
+A `pkl` binary must be available on your PATH. If not, install `pkl` using `homebrew` (Mac) or `apt` (Debian), etc.
 
 
 
@@ -42,6 +42,11 @@ cd pkl-validator
 code --extensionDevelopmentPath="$PWD"
 
 
+# bump version
+npm version patch --no-git-tag-version
+
+
+
 
 
 
@@ -49,6 +54,9 @@ code --extensionDevelopmentPath="$PWD"
 # publish with:
 # registered at: https://marketplace.visualstudio.com/manage
 # https://dev.azure.com/{username}/_usersSettings/tokens
+
+# Get {username} by navigating to: https://dev.azure.com/ (authenticated)
+# 
 # See: https://code.visualstudio.com/api/working-with-extensions/publishing-extension#secure-automated-publishing-to-visual-studio-marketplace
 npm install -g @vscode/vsce
 # install az cli: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?view=azure-cli-latest&pivots=apt
