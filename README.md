@@ -12,6 +12,12 @@ A minimal VS Code extension that runs the local `pkl` CLI against open PKL files
 - Runs `pkl eval <file>`
 - Maps PKL diagnostics into VS Code diagnostics
 
+## Screenshots
+
+![](./resources/screenshot1.png)
+
+![](./resources/screenshot1.png)
+
 ## Usage
 
 1. Install the extension in VS Code.
