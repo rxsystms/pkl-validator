@@ -4,9 +4,12 @@ Catch configuration mistakes before they reach production.
 
 A VS Code extension. Search for "pkl-validator".
 
-![](./resources/logo.png)
+![](./resources/vscode.png)
 
 pkl-validator helps you validate the currently open .pkl files against the nearest local `.pkl` schema in your workspace. It gives you instant feedback while you edit, so schema drift, missing fields, and invalid values are caught early instead of during deployment.
+
+![](./resources/logo.png)
+
 
 A minimal VS Code extension that runs the local `pkl` CLI against open PKL files and reports errors in the Problems panel.
 
