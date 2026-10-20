@@ -16,7 +16,7 @@ A minimal VS Code extension that runs the local `pkl` CLI against open PKL files
 
 ![](./resources/screenshot1.png)
 
-![](./resources/screenshot1.png)
+![](./resources/screenshot2.png)
 
 ## Usage
 
