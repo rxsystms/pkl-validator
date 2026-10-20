@@ -25,66 +25,8 @@ If the `pkl` CLI is not on your PATH, set the `PKL_BIN` environment variable to 
 
 A `pkl` binary must be available on your PATH. If not, install `pkl` using `homebrew` (Mac) or `apt` (Debian), etc.
 
+## Recommended
 
+Install Error Lens (usernamehw.errorlens) for enhanced error highlighting
 
-
-# Developers
-
-## Quickstart
-
-```bash
-npm i
-
-npm run compile
-
-# run local development server with:
-cd pkl-validator
-code --extensionDevelopmentPath="$PWD"
-
-
-# bump version
-npm version patch --no-git-tag-version
-
-
-
-
-
-
-
-# publish with:
-# registered at: https://marketplace.visualstudio.com/manage
-# https://dev.azure.com/{username}/_usersSettings/tokens
-
-# Get {username} by navigating to: https://dev.azure.com/ (authenticated)
-# 
-# See: https://code.visualstudio.com/api/working-with-extensions/publishing-extension#secure-automated-publishing-to-visual-studio-marketplace
-npm install -g @vscode/vsce
-# install az cli: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?view=azure-cli-latest&pivots=apt
-az login # follow instructions...
-az account get-access-token
-
-PUBLISHER_NAME=rxsystms
-vsce login $PUBLISHER_NAME
-
-vsce package
-# upload the .vsix file to VS marketplace
-
-vsce publish
-
-# view at: https://marketplace.visualstudio.com/manage/publishers/rxsystms/extensions/pkl-validator/hub
-
-```
-
-## Usage
-
-1. Open a workspace that contains a `.pkl` file in the same directory or a parent directory.
-2. Open a .pkl file to validate.
-3. Run the command `PKL: Validate current file` or let the extension validate automatically on save.
-
-The extension looks for the nearest `.pkl` file and runs:
-
-```bash
-pkl eval ./<yourfile>.pkl
-```
-
-It then highlights any matching problems directly in the active document.
+---
