@@ -1,6 +1,6 @@
 # PKL Validator
 
-Catch configuration mistakes before they reach production.
+Catch pkl configuration mistakes before they reach production.
 
 A VS Code extension. Search for "pkl-validator".
 
@@ -25,6 +25,11 @@ A minimal VS Code extension that runs the local `pkl` CLI against open PKL files
 
 ![](./resources/screenshot2.png)
 
+## Recommended
+
+Install Error Lens (usernamehw.errorlens) for enhanced error highlighting
+
+
 ## Usage
 
 1. Install the extension in VS Code.
@@ -38,9 +43,6 @@ If the `pkl` CLI is not on your PATH, set the `PKL_BIN` environment variable to 
 
 A `pkl` binary must be available on your PATH. If not, install `pkl` using `homebrew` (Mac) or `apt` (Debian), etc.
 
-## Recommended
-
-Install Error Lens (usernamehw.errorlens) for enhanced error highlighting
 
 ## Feature requests
 
